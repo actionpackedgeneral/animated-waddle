@@ -34,24 +34,10 @@ def row_win(board,playerList):
     for i in range(len(board)):
         for j in range(1,len(board)):
             rowCheck = board[i][0]
-            if(board[i][j] == )
-
-#driving code
-playerList = [1,2]
-board = create_board()
-print(board)
-while not empty(board):
-    play(board,playerList[0])
-    print(board)
-    sleep(2)
-    if empty(board):
-        break
-    play(board,playerList[1])
-    print(board)
-    sleep(2)
-
-    
-    
+            if(board[i][j] != rowCheck):
+                rowWin = False
+    return rowWin        
+            
 
 
     
